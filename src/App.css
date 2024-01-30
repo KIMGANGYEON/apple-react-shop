@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+
+  margin: auto;
+
+}
+
+.nav-bar {
+  padding: 30px;
+  font-size: 30px;
+}
+
+.main-bg {
+  height: 300px;
+  /* ./ */
+  background-image: url('https://search.pstatic.net/common/?src=https%3A%2F%2Fditto-phinf.pstatic.net%2F20240123_144%2F1706001010728b3DWU_JPEG%2F65af8272146389aca06c4185.jpg&type=o&size=228x152&ttype=input');
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+
+
+.start {
+  transform: scale(0);
+
+}
+.end {
+  transform: scale(1);
+  transition: all 1s;
+}
